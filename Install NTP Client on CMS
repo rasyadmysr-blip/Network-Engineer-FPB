@@ -10,6 +10,6 @@ sudo vim /etc/chrony/chrony.conf
 server 192.168.1.240 iburst    #tambahkan dan sesuaikan IP di NTP Server/NDDU)
 
 sudo systemctl status chrony
-sudo systemctl start chrony
+sudo systemctl start chrony   #jika belum active
 time
 date
