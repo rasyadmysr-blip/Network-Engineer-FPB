@@ -2,8 +2,8 @@
 
 #Outside —> Switch Cisco
 NDDU (10.1.16.151) —> Port 1 (VLAN10) 
-CMS (10.100.152.101) —> Port 2 (VLAN ~)
-ECC1/SATCOM (192.168.100.55) —> Port 3 (VLAN20)
+CMS (10.100.152.101) —> Port 2 (VLAN 20)
+ECC1/SATCOM (192.168.100.55) —> Port 3 (VLAN30)
 
 #Link ID Server —> Switch Cisco
 Port 1 (10.200.3.1) —> Port 9 (VLAN20) ens2f3
