@@ -1,0 +1,15 @@
+sudo apt update
+sudo apt install vim          #jika belum install vim
+sudo apt install chrony        #jika belum install chrony
+sudo vim /etc/chrony/chrony.conf
+
+#pool ntp.ubuntu.com      #menonaktifkan baris
+#pool 0.ubuntu            #menonaktifkan baris
+#pool 1.ubuntu            #menonaktifkan baris
+#pool 2.ubuntu            #menonaktifkan baris
+server 192.168.1.240 iburst    #tambahkan dan sesuaikan IP di NTP Server/NDDU)
+
+sudo systemctl status chrony
+sudo systemctl start chrony
+time
+date
