@@ -1,11 +1,11 @@
 #Source: LINK ID INTERNAL DATA WIRING DIAGRAM
 
-Outside to Switch Cisco
+Outside —> Switch Cisco
 NDDU (10.1.16.151) —> Port 1 (VLAN10) 
-CMS (10.100.152.101) —> Port 2 (VLAN @)
+CMS (10.100.152.101) —> Port 2 (VLAN ~)
 ECC1/SATCOM (192.168.100.55) —> Port 3 (VLAN20)
 
-Link ID Server to Switch Cisco
+Link ID Server —> Switch Cisco
 Port 1 (10.200.3.1) —> Port 9 (VLAN20) ens2f3
 Port 2 (172.16.10.1) —> Port 11 (VLAN40) ens2f2
 Port 3 (10.1.32.10) —> Port 13 (VLAN10) ens2f1
