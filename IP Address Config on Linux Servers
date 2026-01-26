@@ -4,10 +4,10 @@ sudo nano 00-installer-config.yaml
 
 network:
   ethernets:
-    enp0s3:
+    enp0s3:   #sesuaikan dgn interface
       dhcp4: false
-      addresses: [192.168.1.50/24]
-      gateway4: 192.168.1.1
+      addresses: [192.168.1.50/24]    #sesuaikan dengan IP Address yg diinginkan
+      gateway4: 192.168.1.1          #sesuaikan dengan IP Gateway yang diinginkan
       nameservers:
         adressess: [118.98.44.100,8.8.8.8]
   version: 2
