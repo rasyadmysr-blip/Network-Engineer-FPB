@@ -1,0 +1,18 @@
+Konsep Unmanage :
+1.CMS (Gw -> 192.168.1.1) : 
+Port 1 -> PC    : 192.168.1.101/24
+Port 5 -> Race : 192.168.1.102/24
+Port 6 -> DIO  : 192.168.1.250/24
+               DI     : 192.168.1.251/24 (Series)
+               DO   : 192.168.1.252/24
+               Nport : 192.168.1.253/24
+2. DATA LINK :
+SKB -> Port 2 : 192.168.1.20/24
+3. GCU :
+SKC -> Port 3 : 192.168.1.10/24
+4. NDDU : 
+SKD ->Port 4 -> PC_NDDU   : 192.168.1.2/24
+                           Simulator    : 192.168.1.7/24 (Series)
+                           NTP Server  : 192.168.1.240/240
+5. EO (Gw : 192.168.2.1) :
+EO -> SKA ->CPU : 192.168.2.160/24 
