@@ -1,7 +1,7 @@
 sudo apt update
 sudo apt install vim          #jika belum install vim
 sudo apt install chrony        #jika belum install chrony
-sudo vim /etc/chrony/chrony.conf
+sudo nano /etc/chrony/chrony.conf
 
 #pool ntp.ubuntu.com      #menonaktifkan baris
 #pool 0.ubuntu            #menonaktifkan baris
